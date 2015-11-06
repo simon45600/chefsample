@@ -10,6 +10,6 @@ FROM node:0.12
 # Install Elasticsearch.
 RUN \
   cd /home/ec2-user && \
-  wget https://s3-us-west-1.amazonaws.com/chefsample/server.js && \
-  node server.js 
+  wget https://s3-us-west-1.amazonaws.com/chefsample/server.js
+#  node server.js 
   
